@@ -1,0 +1,126 @@
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bootstrap Case</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<style>
+
+
+   
+
+div.third {
+    opacity: 0.95;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+.navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+div.item img {
+    width: 100%;
+    height: 100%;
+}
+div.gallery {
+    margin: 20px;
+    border: 1px  #ccc;
+    float: left;
+    width: 500px;
+    height:400px;
+}
+div.gallery img {
+    width: 20%;
+    height:20%;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+.search {
+position:absolute;
+left: 520px;
+top: 350px;
+}
+input[type=text] {
+    width: 160px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 70%;
+}
+.btn
+{
+  padding: 12px 25px;
+}
+    fieldset {
+background-color: #D3D3D3;
+padding: 25px;
+width: 500px;
+}
+}
+
+</style>
+</head>
+<body>
+
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand"><font size="6.5" color="orange"> TipTop</font><sub><font size="2" color="#00FFFF">The Hotel Experts</font></sub></a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Home</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="#">Yoyo</a></li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="signup.php"><span class="glyphicon glyphicon-user"></span>Sign Up</a></li>
+      <li><a href="login.php"><span class="glyphicon glyphicon-log-in"></span>Login</a></li>
+    </ul>
+  </div>
+</nav>
+ <div class="item">
+        <img src="img.jpg" alt="Image">
+</div>
+ <div class="container text-center">    
+  <h3><u>As Spotted In</u></h3><br>
+
+
+<div class="third">
+<fieldset class="search">
+<form action="">
+  <input type="text" name="search" placeholder="E.g Mumbai">
+  
+  
+  <button type="button" class="btn btn-primary">
+
+<span>SEARCH</span>
+
+</button>
+
+
+ </form>
+</fieldset></div>
+</body>
+</html>
